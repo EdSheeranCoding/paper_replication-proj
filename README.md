@@ -5,12 +5,13 @@ Replication of Klein (2021), *"Autonomous algorithmic collusion: Q-learning unde
 This is a day project I did to practice my cuda skills and to introduce myself to MARL (lightly). I hope to contribute more paper replications to this repo in the future.
 
 This project includes:
-- Aa Python implementation of the sequential pricing duopoly environment with tabular Q-learning agents, epsilon-greedy exploration with exponential decay, and the paper's two-period Q-update rule
+- Aa Python implementation of the sequential pricing duopoly environment with tabular Q-learning agents, epsilon-greedy exploration with exponential decay, and the paper's two-period Q-update rule.
 - A CUDA implementation that parallelizes all 1,000 independent training runs across GPU threads.
-- 
 - Figure replication for Figures 1-9
 - A punishment analysis pipeline that forces a deviation from the learned collusive price and tracks the opponent's retaliatory response over subsequent moves. (see Fig. 3 p.12)
-- The paper.
+- The paper being replicated.
+
+I plan on hopefully cleaning up my other previous paper replications and adding them here and this repo be my "replicated papers" repo.
 
 ## Project structure
 
